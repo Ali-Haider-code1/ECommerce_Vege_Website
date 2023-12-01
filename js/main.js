@@ -331,10 +331,10 @@
 		if (minutes < "10") { minutes = "0" + minutes; }
 		if (seconds < "10") { seconds = "0" + seconds; }
 
-		$("#days").html(days + "<span>Days</span>");
-		$("#hours").html(hours + "<span>Hours</span>");
-		$("#minutes").html(minutes + "<span>Minutes</span>");
-		$("#seconds").html(seconds + "<span>Seconds</span>");		
+		$("#days").php(days + "<span>Days</span>");
+		$("#hours").php(hours + "<span>Hours</span>");
+		$("#minutes").php(minutes + "<span>Minutes</span>");
+		$("#seconds").php(seconds + "<span>Seconds</span>");		
 
 }
 
